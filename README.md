@@ -1,7 +1,7 @@
 # PopupGUI
 サーバーを開いてるPC上にGUIで案内を表示します  
 ***
-![1](https://github.com/gigantessbeta/PopupGUI/blob/master/image/screenshot.jpg)  
+![1](https://raw.githubusercontent.com/gigantessbeta/PopupGUI/master/image/screenshot.png)  
 画像のようなことが可能になります。  
   
   
