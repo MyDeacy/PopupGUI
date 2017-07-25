@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<!-- 日本語の文字化けを防止 -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<!-- HTAの細かい設定ができます。 使用に合わせてカスタマイズしてください。 -->
+		<hta:application 
+		APPLICATIONNAME = "GUI" 
+		ID = "GUI" 
+		CAPTION = "Yes" 
+		INNERBORDER = "Yes"
+		NAVIGABLE="No" 
+		SCROLL = "No"
+		ICON = "icon.ico" 
+		SCROLLFLAT = "No" 
+		SYSMENU = "Yes"/>
+		<script type='text/vbscript'> 
+Sub Window_onload()
+Me.ResizeTo 600,400
+End Sub
+</script>
+
+<!-- スタイルを記入 -->
+		<style>
+
+button {
+	float: center;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 7px 24px;
+	background-color: #248;
+	color: #fff;
+}
+
+h2 {
+font-family: Arial;
+	font-size: 20px;
+}
+h3 {
+	color: orange;
+	font-family: Arial;
+	font-size: 15px;
+}
+</style>
+		<!-- 表示するGUIのタイトル -->
+		<title>PMMP-Plugin-GUI</title>
+	</head>
+	<body>
+		<!--ここにメインとなる本文 または処理を記入-->
+		<h2>Example plugin</h2>
+		<br>
+		<p>プラグインのご利用ありがとうございます。
+			<br>
+			<br>この中身は利用者自身で編集してください。
+			<br>アプリアイコンの変更や、画像の追加も可能です。
+			<br>
+			<br>ここにLicense情報やリンクなどを記載すると良いでしょう。
+		</p>
+
+
+		<br>
+		<button class="button" onclick="window.close()">ウィンドウを閉じる</button>
+	</body>
+</html>

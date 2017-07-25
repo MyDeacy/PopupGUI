@@ -1,0 +1,11 @@
+---
+name: PopupGUI
+author: gigantessbeta
+version: 0.1
+main: PopupGUI\main
+api:
+- 3.0.0-ALPHA7
+- 3.0.0-ALPHA6
+- 3.0.0
+- 2.0.0
+...
